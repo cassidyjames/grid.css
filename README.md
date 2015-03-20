@@ -1,5 +1,5 @@
 # grid.css
-Simple Responsive Grid Stylesheet by @cassidyjames
+Simple Responsive Grid Stylesheet by [@cassidyjames](https://github.com/cassidyjames).
 
 Mobile-first with smablet- (small tablet), medium-, large-, xlarge-, and xxlarge-up overrides. Inspired slightly by both Zurb's Foundation and CSS-Tricks' grid. Similar to what's used on System76.com.
 
@@ -32,7 +32,7 @@ By default, all size classes apply to all display size buckets. Prepend any of t
 
 ## Example
 
-These snippets would be full-width on mobile devices, 50/50 on small and large tablet-sized displays, and 33/67 on larger displays.
+These snippets would be full-width on mobile devices, split 50/50 on small and large tablet-sized displays, and split 33/67 on larger displays.
 
 ```html
 <section class="grid">
