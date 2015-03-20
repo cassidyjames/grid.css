@@ -1,0 +1,193 @@
+/*****************************************************************
+* Simple responsive grid by Cassidy James Blaede <c@ssidyjam.es> *
+*                                                                *
+* Mobile-first, with smablet- (small tablet), medium-, large-,   *
+* xlarge-, and xxlarge-up overrides. Inspired slightly by both   *
+* Zurb's Foundation and CSS-Tricks' grid.                        *
+*****************************************************************/
+
+*{
+	box-sizing: border-box;
+}
+
+.grid{
+
+}
+
+.grid::before,
+.grid::after{
+	display: table;
+	content: "";
+	line-height: 0;
+	clear: both;
+}
+
+.grid > *{
+	width: 100%;
+	padding: 0.5em;
+	float: left;
+}
+
+.grid .whole{
+	width: 100%;
+}
+
+.grid .half{
+	width: 50%;
+}
+
+.grid .quarter{
+	width: 25%;
+}
+
+.grid .three-quarters{
+	width: 75%;
+}
+
+.grid .third{
+	width: 33.33%;
+}
+
+.grid .two-thirds{
+	width: 66.66%;
+}
+
+
+/* Smablet-up screens (larger than most phones) */
+@media only screen and (min-width: 640px) {
+	.grid .smablet-whole{
+		width: 100%;
+	}
+
+	.grid .smablet-half{
+		width: 50%;
+	}
+
+	.grid .smablet-quarter{
+		width: 25%;
+	}
+
+	.grid .smablet-three-quarters{
+		width: 75%;
+	}
+
+	.grid .smablet-third{
+		width: 33.3%;
+	}
+
+	.grid .smablet-two-thirds{
+		width: 66.66%;
+	}
+}
+
+
+/* Medium-up screens (larger than a small tablet) */
+@media only screen and (min-width: 768px) {
+	.grid .medium-whole{
+		width: 100%;
+	}
+
+	.grid .medium-half{
+		width: 50%;
+	}
+
+	.grid .medium-quarter{
+		width: 25%;
+	}
+
+	.grid .medium-three-quarters{
+		width: 75%;
+	}
+
+	.grid .medium-third{
+		width: 33.3%;
+	}
+
+	.grid .medium-two-thirds{
+		width: 66.66%;
+	}
+}
+
+
+/* Large-up screens (larger than an iPad landscape) */
+@media only screen and (min-width: 1025px) {
+	.grid .large-whole{
+		width: 100%;
+	}
+
+	.grid .large-half{
+		width: 50%;
+	}
+
+	.grid .large-quarter{
+		width: 25%;
+	}
+
+	.grid .large-three-quarters{
+		width: 75%;
+	}
+
+	.grid .large-third{
+		width: 33.3%;
+	}
+
+	.grid .large-two-thirds{
+		width: 66.66%;
+	}
+}
+
+
+/* XLarge-up screens (larger than 1440x900) */
+@media only screen and (min-width: 1441px) {
+	.grid .xlarge-whole{
+		width: 100%;
+	}
+
+	.grid .xlarge-half{
+		width: 50%;
+	}
+
+	.grid .xlarge-quarter{
+		width: 25%;
+	}
+
+	.grid .xlarge-three-quarters{
+		width: 75%;
+	}
+
+	.grid .xlarge-third{
+		width: 33.3%;
+	}
+
+	.grid .xlarge-two-thirds{
+		width: 66.66%;
+	}
+}
+
+
+/* XXLarge-up screens (larger than 1080p) */
+@media only screen and (min-width: 1921px) {
+	.grid .xxlarge-whole{
+		width: 100%;
+	}
+
+	.grid .xxlarge-half{
+		width: 50%;
+	}
+
+	.grid .xxlarge-quarter{
+		width: 25%;
+	}
+
+	.grid .xxlarge-three-quarters{
+		width: 75%;
+	}
+
+	.grid .xxlarge-third{
+		width: 33.3%;
+	}
+
+	.grid .xxlarge-two-thirds{
+		width: 66.66%;
+	}
+}
