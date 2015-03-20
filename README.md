@@ -3,6 +3,8 @@ Simple Responsive Grid Stylesheet by [@cassidyjames](https://github.com/cassidyj
 
 Mobile-first with smablet- (small tablet), medium-, large-, xlarge-, and xxlarge-up overrides. Inspired slightly by both Zurb's Foundation and CSS-Tricks' grid. Similar to what's used on System76.com.
 
+![https://cloud.githubusercontent.com/assets/611168/6745836/dcdf00a2-ce82-11e4-9caf-26864a3d73a6.png](Example)
+
 ## Usage
 
 Place `grid.css` in your project folder and reference it like any other stylesheet. That's about it.
