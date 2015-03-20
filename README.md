@@ -19,7 +19,6 @@ Use `.grid` as a container for grid-sized things. Similar to a "row" in Foundati
 * `.three-quarters`: Fill three quarters of the width, or 75%.
 * `.third`: Fill one third of the width, or 33.33%.
 * `.two-thirds`: Fill two thirds of the width, or 66.66%.
-* 
 
 ### Responsive display buckets
 
@@ -30,3 +29,20 @@ By default, all size classes apply to all display size buckets. Prepend any of t
 * `large`: 1025+ px wide (typically small desktop browser and up)
 * `xlarge`: 1441+ px wide (higher resolution monitors and up)
 * `xxlarge`: 1921+ px wide (larger than 1080p)
+
+## Example
+
+These snippets would be full-width on mobile devices, 50/50 on small and large tablet-sized displays, and 33/67 on larger displays.
+
+```html
+<section class="grid">
+	<div class="smablet-half large-third">
+		<h3>UX Design</h3>
+		<p>Products should be designed to be useful, usable, and desirable. I help design websites, apps, and services to meet the needs of stakeholders while keeping the design focused on the user and their experience.</p>
+	</div>
+	<div class="smablet-half large-two-thirds">
+		<h3>Front-End Web Development</h3>
+		<p>HTML, CSS, JavaScript. Bootstrap, Foundation. Light image editing. Sass, Gulp. I have the skills and experience needed to take a design concept and turn it into a working, responsive, mobile-first website. Whether you have a rough design you want refined and turned into a responsive site or a detailed mockup, I'll work with you to bring it alive.</p>
+	</div>
+</section>
+```
