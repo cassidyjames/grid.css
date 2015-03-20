@@ -48,3 +48,11 @@ These snippets would be full-width on mobile devices, split 50/50 on small and l
 	</div>
 </section>
 ```
+
+## What it's not
+
+* A comprehensive CSS framework.
+* The best grid system for every single use case.
+* An extraordinarily versatile, use-for-everything-on-your-site grid.
+* A set of default styles. grid.css makes very few assumptions about the rest of your DOM or styles.
+* Cake. It's definitely not cake.
