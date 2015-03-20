@@ -56,7 +56,7 @@ These snippets would be full-width on mobile devices, split 50/50 on small and l
 * An extraordinarily versatile, use-for-everything-on-your-site grid.
 * A set of default styles. grid.css makes very few assumptions about the rest of your DOM or styles.
 * Cake. It's definitely not cake.
-* 
+
 ## Demo
 
 You must've missed it up top. :) [View the demo](http://cassidyjames.github.io/grid.css/).
