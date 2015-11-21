@@ -49,7 +49,7 @@
 }
 
 .grid .two-thirds{
-	width: 66.66%;
+	width: 66.67%;
 }
 
 
@@ -72,11 +72,11 @@
 	}
 
 	.grid .smablet-third{
-		width: 33.3%;
+		width: 33.33%;
 	}
 
 	.grid .smablet-two-thirds{
-		width: 66.66%;
+		width: 66.67%;
 	}
 }
 
@@ -100,11 +100,11 @@
 	}
 
 	.grid .medium-third{
-		width: 33.3%;
+		width: 33.33%;
 	}
 
 	.grid .medium-two-thirds{
-		width: 66.66%;
+		width: 66.67%;
 	}
 }
 
@@ -128,11 +128,11 @@
 	}
 
 	.grid .large-third{
-		width: 33.3%;
+		width: 33.33%;
 	}
 
 	.grid .large-two-thirds{
-		width: 66.66%;
+		width: 66.67%;
 	}
 }
 
@@ -156,11 +156,11 @@
 	}
 
 	.grid .xlarge-third{
-		width: 33.3%;
+		width: 33.33%;
 	}
 
 	.grid .xlarge-two-thirds{
-		width: 66.66%;
+		width: 66.67%;
 	}
 }
 
@@ -184,10 +184,10 @@
 	}
 
 	.grid .xxlarge-third{
-		width: 33.3%;
+		width: 33.33%;
 	}
 
 	.grid .xxlarge-two-thirds{
-		width: 66.66%;
+		width: 66.67%;
 	}
 }
