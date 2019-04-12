@@ -23,25 +23,25 @@
 }
 
 .grid > *{
-	width: 100%;
+	width: 99.9%;
 	padding: 0.5em;
 	float: left;
 }
 
 .grid .whole{
-	width: 100%;
+	width: 99.9%;
 }
 
 .grid .half{
-	width: 50%;
+	width: 49.9%;
 }
 
 .grid .quarter{
-	width: 25%;
+	width: 24.9%;
 }
 
 .grid .three-quarters{
-	width: 75%;
+	width: 74.9%;
 }
 
 .grid .third{
@@ -49,26 +49,26 @@
 }
 
 .grid .two-thirds{
-	width: 66.67%;
+	width: 66.66%;
 }
 
 
 /* Smablet-up screens (larger than most phones) */
 @media only screen and (min-width: 640px) {
 	.grid .smablet-whole{
-		width: 100%;
+		width: 99.9%;
 	}
 
 	.grid .smablet-half{
-		width: 50%;
+		width: 49.9%;
 	}
 
 	.grid .smablet-quarter{
-		width: 25%;
+		width: 24.9%;
 	}
 
 	.grid .smablet-three-quarters{
-		width: 75%;
+		width: 74.9%;
 	}
 
 	.grid .smablet-third{
@@ -76,7 +76,7 @@
 	}
 
 	.grid .smablet-two-thirds{
-		width: 66.67%;
+		width: 66.66%;
 	}
 }
 
@@ -84,19 +84,19 @@
 /* Medium-up screens (larger than a small tablet) */
 @media only screen and (min-width: 768px) {
 	.grid .medium-whole{
-		width: 100%;
+		width: 99.9%;
 	}
 
 	.grid .medium-half{
-		width: 50%;
+		width: 49.9%;
 	}
 
 	.grid .medium-quarter{
-		width: 25%;
+		width: 24.9%;
 	}
 
 	.grid .medium-three-quarters{
-		width: 75%;
+		width: 74.9%;
 	}
 
 	.grid .medium-third{
@@ -104,7 +104,7 @@
 	}
 
 	.grid .medium-two-thirds{
-		width: 66.67%;
+		width: 66.66%;
 	}
 }
 
@@ -112,19 +112,19 @@
 /* Large-up screens (larger than an iPad landscape) */
 @media only screen and (min-width: 1025px) {
 	.grid .large-whole{
-		width: 100%;
+		width: 99.9%;
 	}
 
 	.grid .large-half{
-		width: 50%;
+		width: 49.9%;
 	}
 
 	.grid .large-quarter{
-		width: 25%;
+		width: 24.9%;
 	}
 
 	.grid .large-three-quarters{
-		width: 75%;
+		width: 74.9%;
 	}
 
 	.grid .large-third{
@@ -132,7 +132,7 @@
 	}
 
 	.grid .large-two-thirds{
-		width: 66.67%;
+		width: 66.66%;
 	}
 }
 
@@ -140,19 +140,19 @@
 /* XLarge-up screens (larger than 1440x900) */
 @media only screen and (min-width: 1441px) {
 	.grid .xlarge-whole{
-		width: 100%;
+		width: 99.9%;
 	}
 
 	.grid .xlarge-half{
-		width: 50%;
+		width: 49.9%;
 	}
 
 	.grid .xlarge-quarter{
-		width: 25%;
+		width: 24.9%;
 	}
 
 	.grid .xlarge-three-quarters{
-		width: 75%;
+		width: 74.9%;
 	}
 
 	.grid .xlarge-third{
@@ -160,7 +160,7 @@
 	}
 
 	.grid .xlarge-two-thirds{
-		width: 66.67%;
+		width: 66.66%;
 	}
 }
 
@@ -168,19 +168,19 @@
 /* XXLarge-up screens (larger than 1080p) */
 @media only screen and (min-width: 1921px) {
 	.grid .xxlarge-whole{
-		width: 100%;
+		width: 99.9%;
 	}
 
 	.grid .xxlarge-half{
-		width: 50%;
+		width: 49.9%;
 	}
 
 	.grid .xxlarge-quarter{
-		width: 25%;
+		width: 24.9%;
 	}
 
 	.grid .xxlarge-three-quarters{
-		width: 75%;
+		width: 74.9%;
 	}
 
 	.grid .xxlarge-third{
@@ -188,6 +188,7 @@
 	}
 
 	.grid .xxlarge-two-thirds{
-		width: 66.67%;
+		width: 66.66%;
 	}
 }
+
