@@ -4,191 +4,195 @@
 * Mobile-first, with smablet- (small tablet), medium-, large-,   *
 * xlarge-, and xxlarge-up overrides. Inspired slightly by both   *
 * Zurb's Foundation and CSS-Tricks' grid.                        *
+*                                                                *
+* NOTE: Each grid size is rounded to one decimal place, minus    *
+*       0.1 to account for browser engine rounding               *
+*       inconsistencies. As a result, pixel-precision along the  *
+*       right edge is not possible, though most won't notice.    *
 *****************************************************************/
 
-*{
-	box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-.grid{
+.grid {
 
 }
 
 .grid::before,
-.grid::after{
-	display: table;
-	content: "";
-	line-height: 0;
-	clear: both;
+.grid::after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
 }
 
-.grid > *{
-	width: 99.9%;
-	padding: 0.5em;
-	float: left;
+.grid > * {
+  width: 99.9%;
+  padding: 0.5em;
+  float: left;
 }
 
-.grid .whole{
-	width: 99.9%;
+.grid .whole {
+  width: 99.9%;
 }
 
-.grid .half{
-	width: 49.9%;
+.grid .half {
+  width: 49.9%;
 }
 
-.grid .quarter{
-	width: 24.9%;
+.grid .quarter {
+  width: 24.9%;
 }
 
-.grid .three-quarters{
-	width: 74.9%;
+.grid .three-quarters {
+  width: 74.9%;
 }
 
-.grid .third{
-	width: 33.33%;
+.grid .third {
+  width: 33.2%;
 }
 
-.grid .two-thirds{
-	width: 66.66%;
+.grid .two-thirds {
+  width: 66.5%;
 }
 
 
 /* Smablet-up screens (larger than most phones) */
 @media only screen and (min-width: 640px) {
-	.grid .smablet-whole{
-		width: 99.9%;
-	}
+  .grid .smablet-whole {
+    width: 99.9%;
+  }
 
-	.grid .smablet-half{
-		width: 49.9%;
-	}
+  .grid .smablet-half {
+    width: 49.9%;
+  }
 
-	.grid .smablet-quarter{
-		width: 24.9%;
-	}
+  .grid .smablet-quarter {
+    width: 24.9%;
+  }
 
-	.grid .smablet-three-quarters{
-		width: 74.9%;
-	}
+  .grid .smablet-three-quarters {
+    width: 74.9%;
+  }
 
-	.grid .smablet-third{
-		width: 33.33%;
-	}
+  .grid .smablet-third {
+    width: 33.2%;
+  }
 
-	.grid .smablet-two-thirds{
-		width: 66.66%;
-	}
+  .grid .smablet-two-thirds {
+    width: 66.5%;
+  }
 }
 
 
 /* Medium-up screens (larger than a small tablet) */
 @media only screen and (min-width: 768px) {
-	.grid .medium-whole{
-		width: 99.9%;
-	}
+  .grid .medium-whole {
+    width: 99.9%;
+  }
 
-	.grid .medium-half{
-		width: 49.9%;
-	}
+  .grid .medium-half {
+    width: 49.9%;
+  }
 
-	.grid .medium-quarter{
-		width: 24.9%;
-	}
+  .grid .medium-quarter {
+    width: 24.9%;
+  }
 
-	.grid .medium-three-quarters{
-		width: 74.9%;
-	}
+  .grid .medium-three-quarters {
+    width: 74.9%;
+  }
 
-	.grid .medium-third{
-		width: 33.33%;
-	}
+  .grid .medium-third {
+    width: 33.2%;
+  }
 
-	.grid .medium-two-thirds{
-		width: 66.66%;
-	}
+  .grid .medium-two-thirds {
+    width: 66.5%;
+  }
 }
 
 
 /* Large-up screens (larger than an iPad landscape) */
 @media only screen and (min-width: 1025px) {
-	.grid .large-whole{
-		width: 99.9%;
-	}
+  .grid .large-whole {
+    width: 99.9%;
+  }
 
-	.grid .large-half{
-		width: 49.9%;
-	}
+  .grid .large-half {
+    width: 49.9%;
+  }
 
-	.grid .large-quarter{
-		width: 24.9%;
-	}
+  .grid .large-quarter {
+    width: 24.9%;
+  }
 
-	.grid .large-three-quarters{
-		width: 74.9%;
-	}
+  .grid .large-three-quarters {
+    width: 74.9%;
+  }
 
-	.grid .large-third{
-		width: 33.33%;
-	}
+  .grid .large-third {
+    width: 33.2%;
+  }
 
-	.grid .large-two-thirds{
-		width: 66.66%;
-	}
+  .grid .large-two-thirds {
+    width: 66.5%;
+  }
 }
 
 
 /* XLarge-up screens (larger than 1440x900) */
 @media only screen and (min-width: 1441px) {
-	.grid .xlarge-whole{
-		width: 99.9%;
-	}
+  .grid .xlarge-whole {
+    width: 99.9%;
+  }
 
-	.grid .xlarge-half{
-		width: 49.9%;
-	}
+  .grid .xlarge-half {
+    width: 49.9%;
+  }
 
-	.grid .xlarge-quarter{
-		width: 24.9%;
-	}
+  .grid .xlarge-quarter {
+    width: 24.9%;
+  }
 
-	.grid .xlarge-three-quarters{
-		width: 74.9%;
-	}
+  .grid .xlarge-three-quarters {
+    width: 74.9%;
+  }
 
-	.grid .xlarge-third{
-		width: 33.33%;
-	}
+  .grid .xlarge-third {
+    width: 33.2%;
+  }
 
-	.grid .xlarge-two-thirds{
-		width: 66.66%;
-	}
+  .grid .xlarge-two-thirds {
+    width: 66.5%;
+  }
 }
 
 
 /* XXLarge-up screens (larger than 1080p) */
 @media only screen and (min-width: 1921px) {
-	.grid .xxlarge-whole{
-		width: 99.9%;
-	}
+  .grid .xxlarge-whole {
+    width: 99.9%;
+  }
 
-	.grid .xxlarge-half{
-		width: 49.9%;
-	}
+  .grid .xxlarge-half {
+    width: 49.9%;
+  }
 
-	.grid .xxlarge-quarter{
-		width: 24.9%;
-	}
+  .grid .xxlarge-quarter {
+    width: 24.9%;
+  }
 
-	.grid .xxlarge-three-quarters{
-		width: 74.9%;
-	}
+  .grid .xxlarge-three-quarters {
+    width: 74.9%;
+  }
 
-	.grid .xxlarge-third{
-		width: 33.33%;
-	}
+  .grid .xxlarge-third {
+    width: 33.2%;
+  }
 
-	.grid .xxlarge-two-thirds{
-		width: 66.66%;
-	}
+  .grid .xxlarge-two-thirds {
+    width: 66.5%;
+  }
 }
-
