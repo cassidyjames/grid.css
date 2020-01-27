@@ -1,9 +1,9 @@
-# grid.css - [demo](http://cassidyjames.github.io/grid.css/)
+# grid.css - [demo](https://cassidyjames.com/grid.css/)
 Simple Responsive Grid Stylesheet by [@cassidyjames](https://github.com/cassidyjames).
 
 Mobile-first with smablet- (small tablet), medium-, large-, xlarge-, and xxlarge-up overrides. Inspired slightly by both Zurb's Foundation and CSS-Tricks' grid. Similar to what's used on System76.com.
 
-[![Example](https://cloud.githubusercontent.com/assets/611168/6745836/dcdf00a2-ce82-11e4-9caf-26864a3d73a6.png)](http://cassidyjames.github.io/grid.css/ "Click for Demo")
+[![Example](https://cloud.githubusercontent.com/assets/611168/6745836/dcdf00a2-ce82-11e4-9caf-26864a3d73a6.png)](https://cassidyjames.com/grid.css/ "Click for Demo")
 
 ## Usage
 
@@ -59,4 +59,4 @@ These snippets would be full-width on mobile devices, split 50/50 on small and l
 
 ## Demo
 
-You must've missed it up top. :) [View the demo](http://cassidyjames.github.io/grid.css/).
+You must've missed it up top. :) [View the demo](https://cassidyjames.com/grid.css/).
